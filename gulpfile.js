@@ -14,7 +14,7 @@ const runSequence = require("run-sequence");
 const es = require("event-stream");
 const vsce = require("vsce");
 const nls = require("vscode-nls-dev");
-console.log(ts);
+// console.log(ts);
 const tsProject = ts.createProject("./tsconfig.json", { typescript });
 
 const inlineMap = true;
